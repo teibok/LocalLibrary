@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<h1>Move Get out of the way</h1>
+<p>Sudo remove book</p>
+<form action="" method="POST">
+  {% csrf_token %}
+  <input type="submit" action="" value="DO IT! DO IT NOW!"/>
+</form>
+
+{% endblock%}
